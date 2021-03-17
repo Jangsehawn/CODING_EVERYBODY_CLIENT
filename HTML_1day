@@ -1,0 +1,73 @@
+<For GTM>
+HTML 
+1. 사이트 기본 구조랑 태그 유형별 기능 이해
+  - <html>, <body>, <head>,<style>,<script> 등..  <= 이것만 이해하면 사이트 구조가 눈에 확들어와요
+2. 요소 식별자 ID, CLASS 관련 지식 + Attribute 
+
+Javascript
+1. ID, CLASS 기준으로 요소에 접근하는 방법 document.getElementById() 등
+2. 태그 유형별로 값을 추출하는 방법 <input>, <span>
+3. 조건문, 반복문 if, for 
+4. 특정 요소를 기준으로 주변 요소 탐색 parentNode, child 등
+
+CSS
+1. 사이트의 특정 요소들을 가리키는 CSS Selector 만드는 방법
+
+
+##################################################
+
+생활코딩 HTML
+<WEB1>
+
+HTML = hypertext markup language 
+
+HTML(정적)->JavaScript(동적) <-> 사용자와 반응
+
+<태그> -> 앞에 있는것 열린 태그, 뒤에있는 것 닫힌 태그(/가 앞에 들어감)
+글자 진하게 <strong>~내용~</strong>
+밑줄<u> ~내용~</u>
+줄바꿈 <br>
+단락 <p> ~내용~</p>
+이미지 <img>
+리스트 <li> ~내용~</li>
+li의 부모태그 <ul> -> 꼭 자식태그가 있어야됨
+<ul>
+     <li> ~내용~</li>
+      <li> ~내용~</li>
+</ul>
+
+태그 속성 <img src="000.jpg" width="100%">
+-> 000.jpg 가 화면에 뜸, 화면에 100% 크기로 뜸 
+속성의 순서는 상관없음
+ 
+제목 <title> ~내용~</title> -> 검색엔진이 이걸로 검색함
+<meta charset= "utf-8"> -> 이걸로 읽으면 한글 안깨짐 
+ 
+본문 ->  <body>로 묶어야함
+<body>
+ ~~
+ ~~
+</body>
+
+본문을 설명하는 태그 -> <head>로 묶어야함
+
+<head>
+~본문 설명 
+</head>
+<body>
+~본문
+</body>
+
+전체 태그를 묶어줘야함 -> <html>
+<html>
+	<head>
+	~본문 설명  
+	</head>
+	<body>
+	~본문
+	</body>
+</html>
+
+
+다음 -> WEB1 - 13. 문서의구조와 슈퍼스타들
+https://www.youtube.com/watch?v=sVt5nyz3Gdo&list=RDCMUCvc8kv-i5fvFTJBFAk6n1SA&index=5
